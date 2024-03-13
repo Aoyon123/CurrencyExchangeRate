@@ -1,0 +1,30 @@
+{
+    "name": "fahamidul/laravel-currency-converter",
+    "description": "A laravel  currency converter",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fahamidul\\LaravelCurrencyConverter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aoyon123",
+            "email": "fahamidulaoyon@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fahamidul\\LaravelCurrencyConverter\\CurrencyConverterServiceProvider"
+            ],
+            "aliases": {
+                "CurrencyConverter": "Fahamidul\\LaravelCurrencyConverter\\CurrencyConverter"
+            }
+        }
+    }
+}
