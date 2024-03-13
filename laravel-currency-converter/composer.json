@@ -15,7 +15,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": ">=8.2",
+        "guzzlehttp/guzzle": "^7.2"
+    },
 
     "extra": {
         "laravel": {
