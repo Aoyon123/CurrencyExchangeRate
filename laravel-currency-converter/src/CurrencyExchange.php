@@ -1,11 +1,11 @@
 <?php
 
-namespace CurrencyConverter;
+namespace CurrencyExchange;
 
 use GuzzleHttp\Client;
 use SimpleXMLElement;
 
-class CurrencyConverter
+class CurrencyExchange
 {
     protected $client;
     protected $url;

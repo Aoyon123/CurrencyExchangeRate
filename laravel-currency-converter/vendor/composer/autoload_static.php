@@ -7,14 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInit722537edf84b7f85f08d692f5528fb6b
 {
     public static $prefixLengthsPsr4 = array (
-        'P' => 
+        'C' => 
         array (
-            'Pc\\LaravelCurrencyConverter\\' => 28,
+            'CurrencyExchange\\' => 17,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Pc\\LaravelCurrencyConverter\\' => 
+        'CurrencyExchange\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

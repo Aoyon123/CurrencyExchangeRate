@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Pc\\LaravelCurrencyConverter\\' => array($baseDir . '/src'),
+    'CurrencyExchange\\' => array($baseDir . '/src'),
 );

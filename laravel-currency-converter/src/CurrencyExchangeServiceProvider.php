@@ -1,15 +1,15 @@
 <?php
 
-namespace CurrencyConverter;
+namespace CurrencyExchange;
 
 use Illuminate\Support\ServiceProvider;
 
-class CurrencyConverterServiceProvider extends ServiceProvider
+class CurrencyExchangeServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->app->singleton(CurrencyConverter::class, function ($app) {
-            return new CurrencyConverter(
+        $this->app->singleton(CurrencyExchange::class, function ($app) {
+            return new CurrencyExchange(
                 new GuzzleHttp\Client(),
                 config('currency-exchange.url')
             );
