@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'fahamidul/currency-converter',
+        'name' => 'fahamidul/currency-exchange',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '03ce45ddebe1122e5ffd62dc14e67fdf7bbffa16',
+        'reference' => 'a546e0f8b2469539d631ffcd2d4a7ce04ce7e9c1',
         'type' => 'composer-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'fahamidul/currency-converter' => array(
+        'fahamidul/currency-exchange' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '03ce45ddebe1122e5ffd62dc14e67fdf7bbffa16',
+            'reference' => 'a546e0f8b2469539d631ffcd2d4a7ce04ce7e9c1',
             'type' => 'composer-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
