@@ -1,0 +1,29 @@
+{
+    "name": "Fahamidul/laravel-unique-slug",
+    "description": "A unique slug generator",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fahamidul\\LaravelUniqueSlugGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aoyon123",
+            "email": "fahamidulaoyon@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fahamidul\\LaravelUniqueSlugGenerator\\LaravelUniqueSlugServiceProvider"
+            ],
+            "aliases": {
+                "UniqueSlug": "Fahamidul\\LaravelUniqueSlugGenerator\\UniqueSlug"
+            }
+        }
+    }
+}

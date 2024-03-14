@@ -3,6 +3,7 @@
 namespace CurrencyExchange;
 
 use Illuminate\Support\ServiceProvider;
+use GuzzleHttp\Client;
 
 class CurrencyExchangeServiceProvider extends ServiceProvider
 {
@@ -10,7 +11,7 @@ class CurrencyExchangeServiceProvider extends ServiceProvider
     {
         $this->app->singleton(CurrencyExchange::class, function ($app) {
             return new CurrencyExchange(
-                new GuzzleHttp\Client(),
+                new Client(),
                 config('currency-exchange.url')
             );
         });

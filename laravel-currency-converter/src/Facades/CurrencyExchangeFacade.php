@@ -2,16 +2,18 @@
 
 namespace CurrencyExchange\Facades;
 
+use CurrencyExchange\CurrencyExchange;
 use Illuminate\Support\Facades\Facade;
 
-/*
-@see CurrencyConverter\CurrencyConverterFacade
-*/
 class CurrencyExchangeFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
         return CurrencyExchange::class;
-        // return 'laravel-currency-converter';
+    }
+
+    public static function getExchangeRate(float $amount, string $currency = 'EUR'): array
+    {
+        return app(CurrencyExchange::class)->getExchangeRate($amount, $currency);
     }
 }

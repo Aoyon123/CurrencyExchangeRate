@@ -15,16 +15,21 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": ">=8.2",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+
 
     "extra": {
         "laravel": {
-            "providers": [
-                "CurrencyExchange\\CurrencyExchangeServiceProvider"
-            ],
-            "aliases": {
-                "CurrencyExchange": "CurrencyExchange\\CurrencyExchange"
-            }
-        }
-    }
+          "providers": [
+            "CurrencyExchange\\CurrencyExchangeServiceProvider"
+          ],
+          "aliases": {
+            "CurrencyExchange": "CurrencyExchange\\CurrencyExchange"
+          }
+        },
+        "class": "CurrencyExchange\\Plugin"
+      }
 }
