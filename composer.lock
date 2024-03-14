@@ -5693,6 +5693,7 @@
             "time": "2022-12-30T00:23:10+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "fahamidul/currency-exchange",
             "version": "dev-main",
             "dist": {
@@ -5736,6 +5737,8 @@
             }
         },
         {
+=======
+>>>>>>> 5e0baee94ab3b28c36e0e25adee8be94e91f1f44
             "name": "fakerphp/faker",
             "version": "v1.23.1",
             "source": {
